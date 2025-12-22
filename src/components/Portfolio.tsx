@@ -44,7 +44,7 @@ const Portfolio: React.FC = () => {
       stats: ['Design moderno', 'Mobile-first'],
       tech: ['React', 'Tailwind', 'SEO'],
       gradient: 'from-green-500 to-emerald-500',  // 👈 VERDE (saúde/nutrição)
-      link: 'https://www.clinicarenatabastos.com.br',
+      link: 'https://clinicarenatabastos.com.br',
     },
 
     {
@@ -67,6 +67,20 @@ const Portfolio: React.FC = () => {
       gradient: 'from-orange-500 to-amber-500',
       link: 'https://fabianosf.com',
     },
+
+      {
+    title: 'FraudGuard AI',
+    description: 'Painel em tempo real para monitorar e bloquear transações suspeitas',
+    category: 'sistemas',
+    image: '🛡️',
+    stats: ['Detecção em tempo real', 'Redução de fraudes'],
+    tech: ['Django','React', 'Tailwind', 'Dashboards interativos'],
+    gradient: 'from-sky-500 to-indigo-600',
+    link: 'https://github.com/fabianosf/fraudguard',
+  },
+
+
+
   ];
 
   const filteredProjects = filter === 'all' 

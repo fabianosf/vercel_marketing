@@ -1,0 +1,35 @@
+.
+├── eslint.config.js
+├── estrutura_frontend.txt
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   ├── images
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── Contact.tsx
+│   │   ├── Footer.tsx
+│   │   ├── GitHubStats.tsx
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Portfolio.tsx
+│   │   ├── PricingFAQ.tsx
+│   │   ├── Pricing.tsx
+│   │   └── Services.tsx
+│   ├── index.css
+│   └── main.tsx
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+6 directories, 27 files
