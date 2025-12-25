@@ -68,7 +68,7 @@ const Portfolio: React.FC = () => {
       link: 'https://fabianosf.com',
     },
 
-      {
+    {
     title: 'FraudGuard AI',
     description: 'Painel em tempo real para monitorar e bloquear transações suspeitas',
     category: 'sistemas',
@@ -79,7 +79,16 @@ const Portfolio: React.FC = () => {
     link: 'https://github.com/fabianosf/fraudguard',
   },
 
-
+  {
+  title: 'CNH Software',
+  description: 'Sistema de gerenciamento e consulta de Carteira Nacional de Habilitação',
+  category: 'sistemas',
+  image: '🪪',
+  stats: ['Consulta de dados', 'Gerenciamento digital'],
+  tech: ['Django', 'React', 'Tailwind', 'PostgreSQL'],
+  gradient: 'from-emerald-500 to-teal-600',
+  link: 'https://github.com/fabianosf/cnh_software',
+  }
 
   ];
 
